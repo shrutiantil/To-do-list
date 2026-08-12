@@ -20,12 +20,12 @@ grid-template-columns: 1fr 350px ;
 gap: 30px;
 }
 
-.header{display: flex;
+ .header{display: flex;
 justify-content: space-between;
 align-items: center;
 margin-bottom: 30px;
 grid-column: 1/-1;
-}
+} 
 
 .search-bar{position: relative;
 flex: 1;
@@ -47,7 +47,7 @@ transition: all 0.3s ease;
 .search-bar i{position: absolute;
 left: 15px;
 top: 50%;
-transform: translateX(-50);
+transform: translateY(-50);
 color: #9ca3af;
 }
 
@@ -60,7 +60,7 @@ border-radius: 50%;
 border: none;
 background: #f3f4f6;
 cursor: pointer;
-display: flex;
+display: flexbox;
 align-items: center;
 justify-content: center;
 transition: all 0.3s ease;
@@ -70,5 +70,12 @@ position: relative;
 .icon-btn:hover{background: #e5e7eb;
 }
 
-
+.notification-dot{position: absolute;
+top: 8px;
+right: 8px;
+width: 8px;
+height: 8px;
+background: red;
+border-radius: 50%;
+}
 

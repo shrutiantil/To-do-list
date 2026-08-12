@@ -12,7 +12,7 @@
 <body>
 
       <div class="container">
-        <div class="header">
+         <div class="header">
             <div class="search-bar">
                 <i class="fas fa-search"></i>
                 <input type="text" placeholder="search for any training you want ">
@@ -29,8 +29,39 @@
                 </button>
             </div>
  
+         </div>
 
-        </div>
+
+            <div class="main-content">
+               <div class="title-section">
+                   <h1>you've got 
+                     <span class="task-count" id="taskcount">0</span> task today
+                        <button class="add-btn" onclick="openModal()">
+                          <i class="fas fa-plus"></i>Add New
+                        </button>
+                   </h1>
+                </div>
+  
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>On Hold</h2>
+                    </div>
+
+                   <div id="onholdtasks"></div> 
+                </div>
+
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>Completed</h2>
+                        <span class="badge badge-inactive">Inactive</span>
+                    </div>
+
+                     <div id="completedtasks"></div>
+                </div>
+
+            </div>
       </div>
 
 
