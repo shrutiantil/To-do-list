@@ -1,0 +1,74 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: wheat;
+min-height: 100vh;
+padding: 40px 20px;
+}
+
+.container{max-width: 1400px;
+margin: 0;
+background: white;
+border-radius: 30px;
+padding: 40px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+display: grid;
+grid-template-columns: 1fr 350px ;
+gap: 30px;
+}
+
+.header{display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+grid-column: 1/-1;
+}
+
+.search-bar{position: relative;
+flex: 1;
+max-width: 500px;
+}
+
+.search-bar input {width: 100%;
+padding: 12px 45px;
+border: 2px solid #e5e7eb;
+border-radius: 15px;
+font-size: 14px;
+outline: none;
+transition: all 0.3s ease;
+}
+
+.search-bar input:focus{border-color: blueviolet;
+}
+
+.search-bar i{position: absolute;
+left: 15px;
+top: 50%;
+transform: translateX(-50);
+color: #9ca3af;
+}
+
+.header-icons{align-items: center;
+}
+
+.icon-btn{width: 40px;
+height: 40px;
+border-radius: 50%;
+border: none;
+background: #f3f4f6;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.3s ease;
+position: relative;
+}
+
+.icon-btn:hover{background: #e5e7eb;
+}
+
+
+
