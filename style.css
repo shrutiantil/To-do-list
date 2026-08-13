@@ -137,3 +137,34 @@ font-weight: 600;
 .badge-inactive{background: #fee2e2;
 color: #dc2626;
 }
+
+.avatar .icon-btn{
+    width: 30px;
+    height: 30px;
+}
+
+.avatar i{font-size: 12px;}
+
+.task-items{background: white;
+border-radius: 15px;
+padding: 20px;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+gap: 15px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+transition: 0.3 ease;
+}
+
+.task-items:hover{transform: translateX(5px);
+box-shadow:  0 4px 12px rgba(0,0,0,0.1);
+}
+
+.task-checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ec4899;
+    cursor: pointer;
+    transition:  all 0.3s ease;
+}
