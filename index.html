@@ -134,9 +134,10 @@
 <div class="modal" id="taskModal">
     <div class="modal-content">
         <h2 class="modal-header">Add / Update Task</h2>
+
         <form id="taskForm">
-        <div> 
-            <label>Task Title</label>
+        <div  class="form-group">
+            <label>Task Title </label>
             <input type="text" id="taskTitle" placeholder="Enter task title " required >
         </div>
             
@@ -158,17 +159,17 @@
 
             <option value="minor">Minor</option>
             <option value="normal">Normal</option>
-            <option value="crirical">Critical</option>
+            <option value="critical">Critical</option>
 
             </select>    
         </div>
 
-        <div class="modal-actiions">
-            <button  type="button" class="btn btn-secondary" onclick="closeModal()">
+        <div class="modal-actions">
+            <button  type="button" class=" btn btn-secondary" onclick="closeModal()">
                 Cancel
             </button>
 
-            <button type="submit" class="btn-primary">Save Task</button>
+            <button type="submit" class=" btn btn-primary">Save Task</button>
         </div>
 
         </form>
