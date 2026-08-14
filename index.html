@@ -48,9 +48,11 @@
                         <h2>On Hold</h2>
                     </div>
 
+
                    <div id="onholdtasks">
-                    <div class="task-items">
-                        <div class="task-checkbox" onclick="toggleTask()"></div>
+
+                     <!-- <div class="task-items">
+                        <div class="task-checkbox " onclick="toggleTask()"></div>
 
                         <div class="task-content">
                             <div class="task-title">book</div>        
@@ -70,9 +72,9 @@
                         <button class="icon-btn" onclick="deleteTask()">
                             <i class="fas fa-trash"></i>
                         </button>
-                    </div>
+                    </div> -->
                    </div> 
-                </div>
+                </div> 
 
 
                 <div class="section">
@@ -85,6 +87,48 @@
                 </div>
 
             </div>
+
+                     
+                <div class="sidebaar">
+                    <div class="sidebar-section">
+                        <div class="sidebar-title">Results Summary</div>
+                        <div class="stat-card">
+                           <div class="stat-label">Completion Rate</div>
+                           <div class="stat-value" id="completionRateValue">0%</div>
+                           <div class="progress-bar">
+                              <div class="progree-fill" id="CompletionProgress" style="width:60"></div>
+                           </div>
+
+                        </div>
+
+
+
+                        <div class="stat-card">
+                           <div class="stat-label">Total Task</div>
+                           <div class="stat-value" id="totalTask">0</div>
+                           <div class="progress-bar">
+                              <div class="progree-fill" id="totalProgress" style="width:60"></div>
+                           </div>
+                        </div>
+
+
+
+                        <div class="stat-card">
+                           <div class="stat-label">Completed</div>
+                           <div class="stat-value" id="completionRateValue">0</div>
+                        </div>
+
+
+                         <div class="stat-card">
+                           <div class="stat-label">pending</div>
+                           <div class="stat-value" id="pendingCount">0</div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
       </div>
 
 

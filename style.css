@@ -168,3 +168,75 @@ box-shadow:  0 4px 12px rgba(0,0,0,0.1);
     cursor: pointer;
     transition:  all 0.3s ease;
 }
+
+.task-checkbox.completed{background: #ec4899;
+    position: relative;
+}
+
+.task-checkbox.completed::after{
+    content: "✓";
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;}
+
+.task-content{flex: 1;}
+
+.task-title{font-size: 15px;
+color: #1f2937;
+margin-bottom: 5px;
+}
+
+.task-title.compeletd{text-decoration: line-through;
+color: #9ca3af;
+}
+
+.status-badge{padding: 6px 16px;
+border-radius: 20px;
+font-size: 12px;
+font-weight: 600;
+}
+
+.status-pending{background: #fef3c7;
+color: #f59e0b;
+}
+
+.status-progress{background: #dbeafe;
+color: #3b82f6;
+}
+
+.status-completed{background: #d1fae5;
+color: #10b981;
+}
+
+.status-cancelled{background: #fef3c7;
+color: #ef4444;
+}
+
+.priority-badge{display: flex;
+align-items: center;
+gap: 5px;
+font-size: 12px;
+font-weight: 600;
+}
+
+.priority-cricical{color: #dc2626;}
+
+.priority-normal{color: #f59e0b;}
+
+.priority-minor{color: #10b981;}
+
+.avatar{width: 32px;
+height: 32px;
+border-radius: 50%;
+background: #8b5cf6;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 12px;
+font-weight: 600;
+}
